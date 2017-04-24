@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/BTC076_HW3c_FOAM">
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="20" maxIdle="10" maxWait="-1" name="FoamDB_MySQL" password="" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306//home/ben/Documents/J2EE/EXP/AthleteDB.sql?zeroDateTimeBehavior=convertToNull" username="root"/>
+  <Resource auth="Container" driverClassName="org.apache.derby.jdbc.ClientDriver" maxActive="20" maxIdle="10" maxWait="-1" name="FoamDB_Derby" password="csci2466" type="javax.sql.DataSource" url="jdbc:derby://localhost:1527/foam" username="foamapp"/>
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="20" maxIdle="10" maxWait="-1" name="FOAM" password="" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/foam?zeroDateTimeBehavior=convertToNull" username="root"/>
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="20" maxIdle="10" maxWait="-1" name="foamDB" password="" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/foam?zeroDateTimeBehavior=convertToNull" username="root"/>
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="20" maxIdle="10" maxWait="-1" name="FOAMDB" password="" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/foam?zeroDateTimeBehavior=convertToNull" username="root"/>
+  <ResourceLink global="FOAM" name="foamDB" type="javax.sql.DataSource"/>
+  <ResourceLink global="FOAM" name="FoamDB" type="javax.sql.DataSource"/>
+  <ResourceLink global="FOAM" name="foam" type="javax.sql.DataSource"/>
+</Context>
